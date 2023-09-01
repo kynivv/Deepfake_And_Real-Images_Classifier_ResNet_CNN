@@ -23,9 +23,9 @@ IMG_SHAPE = (IMG_SIZE, IMG_SIZE, 3)
 
 
 
-## ZipFile Extraction
-#with ZipFile('deepfake and real images.zip') as data:
-#    data.extractall()
+# ZipFile Extraction
+with ZipFile('deepfake and real images.zip') as data:
+    data.extractall()
 
 
 # Data Preprocessing
